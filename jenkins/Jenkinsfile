@@ -6,6 +6,11 @@ pipeline {
                 echo 'I am building'
             }
         }
+          stage('Test') {
+            steps {
+                echo 'I am testing'
+            }
+        }
         stage('double test') {
             steps {
                 echo 'I am testing again'
