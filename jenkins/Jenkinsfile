@@ -8,7 +8,7 @@ pipeline {
         }
           stage('Test') {
             steps {
-                echo 'I am testing'
+                echo 'I am testing again'
             }
         }
         stage('double test') {
